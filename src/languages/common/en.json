@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "en": "English",
+    "pt": "Português",
+    "toggle": "Change language"
+  },
+  "buttons": {
+    "download_cv": "Download CV",
+    "view_project": "View Project",
+    "send_message": "Send Message",
+    "back_to_top": "Back to Top"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Try Again",
+    "read_more": "Read More",
+    "show_less": "Show Less"
+  }
+}

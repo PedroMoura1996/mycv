@@ -1,0 +1,164 @@
+{
+  "hero": {
+    "greeting": "Olá, sou o",
+    "name": "Pedro Moura",
+    "title": "Desenvolvedor Fullstack na Bryj",
+    "subtitle": "Desenvolvedor experiente especializado em React, JavaScript e tecnologias web modernas",
+    "cta": "Entrar em Contacto"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Desenvolvedor fullstack com experiência em React, JavaScript e microserviços. Pós-graduado em Engenharia de Software e Sistemas de Informação com forte background em nanotecnologia e investigação em propriedades óticas.",
+    "location": "Lisboa, Portugal",
+    "experience": "5+ Anos de Experiência",
+    "projects": "Múltiplos Projetos Empresariais"
+  },
+  "skills": {
+    "title": "Competências & Tecnologias",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Ferramentas & Outros"
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "jobs": [
+      {
+        "position": "Desenvolvedor Fullstack",
+        "company": "Bryj Technologies, Inc.",
+        "period": "2023 - Presente",
+        "location": "Lisboa, Portugal",
+        "description": "Desenvolvimento fullstack usando tecnologias web modernas e melhores práticas para aplicações empresariais.",
+        "technologies": ["React", "JavaScript", "Node.js", "Git"]
+      },
+      {
+        "position": "Desenvolvedor React",
+        "company": "Bryj Technologies, Inc.",
+        "period": "2024 - 2023",
+        "location": "Lisboa, Portugal",
+        "description": "Desenvolvimento frontend focado em aplicações React e implementação de interfaces de utilizador.",
+        "technologies": ["React", "JavaScript", "Git"]
+      },
+      {
+        "position": "Desenvolvedor React - DPDS",
+        "company": "novobanco",
+        "period": "2023 - 2024",
+        "location": "Lisboa, Portugal",
+        "description": "Desenvolvimento React para aplicações bancárias e plataformas digitais.",
+        "technologies": ["React", "JavaScript", "Git"]
+      },
+      {
+        "position": "Desenvolvedor React - DTD",
+        "company": "novobanco",
+        "period": "2021 - 2022",
+        "location": "Lisboa, Portugal",
+        "description": "Desenvolvimento frontend usando React para iniciativas de transformação digital bancária.",
+        "technologies": ["React", "JavaScript"]
+      },
+      {
+        "position": "Analista de Aplicações - DTD",
+        "company": "novobanco",
+        "period": "2020 - 2021",
+        "location": "Lisboa, Portugal",
+        "description": "Análise de aplicações e desenvolvimento usando arquitetura de microserviços Java.",
+        "technologies": ["Java", "Microserviços"]
+      },
+      {
+        "position": "Analista de Aplicações - DIS",
+        "company": "novobanco",
+        "period": "2020",
+        "location": "Lisboa, Portugal",
+        "description": "Análise de aplicações e desenvolvimento de sistemas para sistemas de informação bancários.",
+        "technologies": ["Java", "Microserviços"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formação & Certificações",
+    "items": [
+      {
+        "degree": "Pós-graduação em Engenharia de Software e Sistemas de Informação",
+        "institution": "INESC",
+        "period": "2019 - 2020",
+        "grade": "Especialização SISE"
+      },
+      {
+        "degree": "Estudante de Mestrado - Investigação em Propriedades Óticas",
+        "institution": "INL - International Iberian Nanotechnology Laboratory",
+        "period": "2019",
+        "grade": "Investigação em LEDs Nano-escala"
+      },
+      {
+        "degree": "Licenciatura em Nanotecnologia",
+        "institution": "Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa",
+        "period": "2014 - 2019",
+        "grade": ""
+      },
+      {
+        "degree": "Programa de Intercâmbio - Engenharia Eletrotécnica e Eletrónica",
+        "institution": "Aarhus University",
+        "period": "2018",
+        "grade": ""
+      },
+      {
+        "degree": "Certificação TypeScript Fundamentals",
+        "institution": "Udemy",
+        "period": "2022",
+        "grade": "Certificação Online"
+      },
+      {
+        "degree": "Certificação ES6 JavaScript",
+        "institution": "Udemy",
+        "period": "2022",
+        "grade": "Certificação Online"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "items": [
+      {
+        "title": "Abertura de Conta Online - NovoBanco",
+        "description": "Plataforma de abertura de conta digital com autenticação por chave móvel digital e verificação por videochamada. Processo KYC simplificado com verificação de documentos e onboarding digital seguro.",
+        "technologies": ["React", "Node.js", "Autenticação Digital", "Integração Vídeo"],
+        "image": "ecommerce",
+        "demo": "https://www.novobanco.pt/particulares/abertura-de-conta",
+        "github": ""
+      },
+      {
+        "title": "Pesquisa de Balcões - NovoBanco",
+        "description": "Localizador interativo de balcões e ATMs baseado em mapa com disponibilidade em tempo real, informações de serviços e funcionalidade de pesquisa por localização.",
+        "technologies": ["React", "Google Maps API", "Geolocalização", "REST API"],
+        "image": "taskmanager",
+        "demo": "https://www.novobanco.pt/pesquisa-balcoes",
+        "github": ""
+      },
+      {
+        "title": "ChatROI - Plataforma de Marketing AI",
+        "description": "Plataforma de geração de audiências e automação de marketing com IA. Desenvolvimento backend com Node.js, integrando APIs da OpenAI para segmentação inteligente de audiências e otimização de campanhas.",
+        "technologies": ["Node.js", "OpenAI API", "AI/ML", "Automação Marketing"],
+        "image": "weather",
+        "demo": "https://chatroi.bryj.ai/",
+        "github": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "Vamos Trabalhar Juntos",
+    "subtitle": "Tem um projeto em mente? Vamos discutir como podemos dar vida às suas ideias.",
+    "form": {
+      "name": "Nome Completo",
+      "email": "Endereço de Email",
+      "subject": "Assunto",
+      "message": "A Sua Mensagem",
+      "send": "Enviar Mensagem",
+      "sending": "A enviar...",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Falha ao enviar mensagem. Tente novamente."
+    },
+    "info": {
+      "email": "pedro.alexandre.moura1996@gmail.com",
+      "phone": "+351 912 095 645",
+      "location": "Lisboa, Portugal"
+    }
+  }
+}
