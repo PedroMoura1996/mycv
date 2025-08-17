@@ -23,7 +23,6 @@ import { Card } from '../components/ui/card';
 import { Separator } from '../components/ui/separator';
 import { Badge } from '../components/ui/badge';
 import { ProjectCarousel } from '../components/ProjectCarousel';
-import { ContactForm } from '../components/ContactForm';
 import { BackToTop } from '../components/BackToTop';
 
 const skillsData = {
@@ -325,9 +324,7 @@ export const Home: React.FC = () => {
                 </p>
               </div>
               <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-                <div>
-                  <ContactForm />
-                </div>
+          
                 <div className="space-y-6">
                   <Card className="card-professional p-6">
                     <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
@@ -359,18 +356,24 @@ export const Home: React.FC = () => {
                     </div>
                   </Card>
                   
-                  <Card className="card-professional p-6">
+                  
+                </div>
+                
+                <div className="space-y-6">
+                <Card className="card-professional p-6 h-full">
                     <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
                     <div className="space-y-3">
-                      <Button variant="outline" className="w-full justify-start gap-3">
+                    
+                      <Button variant="outline" onClick={() => window.open('https://www.linkedin.com/in/pedroaamoura/', '_blank')}  className="w-full justify-start gap-3">
                         <ExternalLink className="h-4 w-4" />
                         LinkedIn Profile
                       </Button>
-                      <Button variant="outline" className="w-full justify-start gap-3">
+                
+                      <Button variant="outline" onClick={() => window.open('https://github.com/PedroMoura1996', '_blank')} className="w-full justify-start gap-3">
                         <ExternalLink className="h-4 w-4" />
                         GitHub Portfolio
                       </Button>
-                      <Button variant="outline" className="w-full justify-start gap-3">
+                    <Button variant="outline" onClick={() => window.open('https://github.com/PedroMoura1996', '_blank')} className="w-full justify-start gap-3">
                         <Download className="h-4 w-4" />
                         Download Resume
                       </Button>
