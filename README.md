@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+📝 Personal CV Web Application
 
-## Project info
+This is a personal CV / Resume web application built with React, TypeScript, and modern libraries to showcase my skills, experience, and projects in a clean, interactive interface.
 
-**URL**: https://lovable.dev/projects/6d9b87f2-805c-4838-8707-5f4ce58fa8f5
+🚀 Tech Stack
 
-## How can I edit this code?
+React – Component-based UI library
 
-There are several ways of editing your application.
+TypeScript – Static typing for safer code
 
-**Use Lovable**
+Tailwind CSS – Utility-first styling framework
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6d9b87f2-805c-4838-8707-5f4ce58fa8f5) and start prompting.
+ShadCN UI – Customizable React components
 
-Changes made via Lovable will be committed automatically to this repo.
+Redux Toolkit – State management
 
-**Use your preferred IDE**
+React Query – Server state management
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Radix UI – Accessible UI primitives (Accordion, Dialog, Tabs, Popover, etc.)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Framer Motion – Animations and transitions
 
-Follow these steps:
+Recharts – Data visualization
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+i18next / react-i18next – Internationalization
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Zod / Yup – Schema validation
 
-# Step 3: Install the necessary dependencies.
-npm i
+React Hook Form – Form handling and validation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Additional Libraries: clsx, tailwind-merge, embla-carousel-react, lucide-react, sonner, vaul, cmdk
+
+✨ Features
+
+Fully responsive layout for desktop and mobile
+
+Interactive components (accordions, modals, tabs, sliders, tooltips, etc.)
+
+State management with Redux Toolkit
+
+Asynchronous data handling with React Query
+
+Form validation with React Hook Form, Yup, and Zod
+
+Dark/light theme support with next-themes
+
+Smooth animations with Framer Motion
+
+Carousel support with Embla Carousel
+
+i18n support for multiple languages
+
+📦 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Build for production:
 
-**Use GitHub Codespaces**
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+Preview the production build:
 
-This project is built with:
+npm run preview
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+⚡ Scripts
+Command	Description
+npm run dev	Start development server
+npm run build	Build for production
+npm run build:dev	Build in development mode
+npm run preview	Preview production build
+npm run lint	Run ESLint checks
+🌍 Deployment
 
-## How can I deploy this project?
+This app can be deployed on:
 
-Simply open [Lovable](https://lovable.dev/projects/6d9b87f2-805c-4838-8707-5f4ce58fa8f5) and click on Share -> Publish.
+Vercel
 
-## Can I connect a custom domain to my Lovable project?
+Netlify
 
-Yes, you can!
+GitHub Pages
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open-source and available under the MIT License.
+

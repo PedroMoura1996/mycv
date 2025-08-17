@@ -34,15 +34,6 @@ export const Header: React.FC = () => {
     >
       <nav className="container-professional section-padding py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <button
-            onClick={() => scrollToSection('hero')}
-            className="text-xl font-bold text-primary hover:text-primary-light transition-colors"
-            aria-label="Go to homepage"
-          >
-            JS
-          </button>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navigationItems.map((item) => (
