@@ -67,7 +67,7 @@ export const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ projects }) =>
                 {currentProject.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="px-3 py-1 text-xs font-medium bg-accent/10 text-accent-foreground rounded-full border border-accent/20"
+                    className="px-3 py-1 text-xs font-medium bg-accent/80 text-accent-foreground rounded-full border border-accent/20"
                   >
                     {tech}
                   </span>

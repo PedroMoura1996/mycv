@@ -254,7 +254,7 @@ export const Home: React.FC = () => {
                         </div>
                       </div>
                       <div className="md:text-right">
-                        <span className="inline-block px-3 py-1 text-sm bg-accent/10 text-accent-foreground rounded-full border border-accent/20">
+                        <span className="inline-block px-3 py-1 text-sm bg-accent/80 text-accent-foreground rounded-full border border-accent/20">
                           {job.period}
                         </span>
                       </div>
@@ -289,7 +289,7 @@ export const Home: React.FC = () => {
                           <p className="text-sm text-accent font-medium mt-1">{item.grade}</p>
                         )}
                       </div>
-                      <span className="text-sm bg-primary/10 text-primary-foreground px-3 py-1 rounded-full border border-primary/20 whitespace-nowrap">
+                      <span className="text-sm bg-primary/80 text-primary-foreground px-3 py-1 rounded-full border border-primary/20 whitespace-nowrap">
                         {item.period}
                       </span>
                     </div>
