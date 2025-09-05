@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contacto"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "toggle": "Alternar tema"
+  },
+  "language": {
+    "en": "English",
+    "pt": "Português",
+    "toggle": "Alterar idioma"
+  },
+  "buttons": {
+    "download_cv": "Descarregar CV",
+    "view_project": "Ver Projeto",
+    "send_message": "Enviar Mensagem",
+    "back_to_top": "Voltar ao Topo"
+  },
+  "common": {
+    "loading": "A carregar...",
+    "error": "Erro",
+    "retry": "Tentar Novamente",
+    "read_more": "Ler Mais",
+    "show_less": "Mostrar Menos"
+  }
+}

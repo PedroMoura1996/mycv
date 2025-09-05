@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Pedro Moura",
+    "title": "Fullstack Developer at Bryj",
+    "subtitle": "Experienced developer specializing in React, JavaScript, and modern web technologies",
+    "cta": "Get in Touch",
+    "download_cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Fullstack developer with expertise in React, JavaScript, and microservices. Post-graduate in Software and Information Systems Engineering with a strong background in nanotechnology and optical properties research.",
+    "location": "Lisboa, Portugal",
+    "experience": "5+ Years Experience",
+    "projects": "Multiple Enterprise Projects"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Others"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "position": "Fullstack Developer",
+        "company": "Bryj Technologies, Inc.",
+        "period": "2023 - Present",
+        "location": "Lisboa, Portugal",
+        "description": "Fullstack development using modern web technologies and best practices for enterprise applications.",
+        "technologies": ["React", "JavaScript", "Node.js", "Git"]
+      },
+      {
+        "position": "React Developer",
+        "company": "Bryj Technologies, Inc.",
+        "period": "2024 - 2023",
+        "location": "Lisboa, Portugal",
+        "description": "Frontend development focused on React applications and user interface implementation.",
+        "technologies": ["React", "JavaScript", "Git"]
+      },
+      {
+        "position": "React Developer - DPDS",
+        "company": "novobanco",
+        "period": "2023 - 2024",
+        "location": "Lisboa, Portugal",
+        "description": "React development for banking applications and digital platforms.",
+        "technologies": ["React", "JavaScript", "Git"]
+      },
+      {
+        "position": "React Developer - DTD",
+        "company": "novobanco",
+        "period": "2021 - 2022",
+        "location": "Lisboa, Portugal",
+        "description": "Frontend development using React for banking digital transformation initiatives.",
+        "technologies": ["React", "JavaScript"]
+      },
+      {
+        "position": "Application Analyst - DTD",
+        "company": "novobanco",
+        "period": "2020 - 2021",
+        "location": "Lisboa, Portugal",
+        "description": "Application analysis and development using Java microservices architecture.",
+        "technologies": ["Java", "Microservices"]
+      },
+      {
+        "position": "Application Analyst - DIS",
+        "company": "novobanco",
+        "period": "2020",
+        "location": "Lisboa, Portugal",
+        "description": "Application analysis and system development for banking information systems.",
+        "technologies": ["Java", "Microservices"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education & Certifications",
+    "items": [
+      {
+        "degree": "Post-graduation in Software and Information Systems Engineering",
+        "institution": "INESC",
+        "period": "2019 - 2020",
+        "grade": "SISE Specialization"
+      },
+      {
+        "degree": "Master Student - Optical Properties Research",
+        "institution": "INL - International Iberian Nanotechnology Laboratory",
+        "period": "2019",
+        "grade": "Nanoscale LED Research"
+      },
+      {
+        "degree": "Bachelor's degree in Nanotechnology",
+        "institution": "Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa",
+        "period": "2014 - 2019",
+        "grade": ""
+      },
+      {
+        "degree": "Exchange Program - Electrical and Electronics Engineering",
+        "institution": "Aarhus University",
+        "period": "2018",
+        "grade": ""
+      },
+      {
+        "degree": "TypeScript Fundamentals Certification",
+        "institution": "Udemy",
+        "period": "2022",
+        "grade": "Online Certification"
+      },
+      {
+        "degree": "ES6 JavaScript Certification",
+        "institution": "Udemy",
+        "period": "2022",
+        "grade": "Online Certification"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "title": "NovoBanco Online Account Opening",
+        "description": "Digital account opening platform with mobile key authentication and video call verification. Streamlined KYC process with document verification and secure digital onboarding.",
+        "technologies": ["React", "Node.js", "Digital Authentication", "Video Integration"],
+        "image": "ecommerce",
+        "demo": "https://www.novobanco.pt/particulares/contas/abertura-conta-online/abertura-conta-videoselfie",
+        "github": ""
+      },
+      {
+        "title": "NovoBanco Branch Locator",
+        "description": "Interactive map-based branch and ATM locator with real-time availability, services information, and location-based search functionality.",
+        "technologies": ["React", "Google Maps API", "Geolocation", "REST API"],
+        "image": "taskmanager",
+        "demo": "https://www.novobanco.pt/pesquisa-balcoes",
+        "github": ""
+      },
+      {
+        "title": "Bryj ChatROI - AI Marketing Platform",
+        "description": "AI-powered audience generation and marketing automation platform. Backend development with Node.js, integrating OpenAI APIs for intelligent audience targeting and campaign optimization.",
+        "technologies": ["Node.js", "OpenAI API", "AI/ML", "Marketing Automation"],
+        "image": "weather",
+        "demo": "https://chatroi.bryj.ai/get-started",
+        "github": ""
+      },
+      {
+        "title": "Bryj Grow/Platform",
+        "description": "Leverage real-time insights to create tailored mobile experiences that keep users engaged and coming back.",
+        "technologies": ["React",  "Push notifications", "Real-time analytic"],
+        "image": "weather",
+        "demo": "https://app.bryj.ai/sign-in",
+        "github": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind? Let's discuss how we can bring your ideas to life.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "email": "pedro.alexandre.moura1996@gmail.com",
+      "phone": "+351 912 095 645",
+      "location": "Lisboa, Portugal"
+    }
+  }
+}
