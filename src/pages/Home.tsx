@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import profilePlaceholder from '../assets/profile-placeholder.jpg';
+import profilePicture from '../assets/profile-picture.jpeg';
 import projectEcommerce from '../assets/project-ecommerce.jpg';
 import projectTaskmanager from '../assets/project-taskmanager.jpg';
 import projectWeather from '../assets/project-weather.jpg';
@@ -24,6 +24,7 @@ import { Separator } from '../components/ui/separator';
 import { Badge } from '../components/ui/badge';
 import { ProjectCarousel } from '../components/ProjectCarousel';
 import { BackToTop } from '../components/BackToTop';
+import { useDownload } from '@/hooks/useDownload';
 
 const skillsData = {
   frontend: ['React', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'ES6'],
@@ -34,10 +35,20 @@ const skillsData = {
 export const Home: React.FC = () => {
   const { t } = useTranslation('homepage');
 
+  const { downloadFile } = useDownload();
+
   const projectImages = {
     ecommerce: projectEcommerce,
     taskmanager: projectTaskmanager,
     weather: projectWeather,
+  };
+
+  const hanldeContact = () => {
+    window.open('mailto:pedro.alexandre.moura1996@gmail.com', '_self');
+  };
+
+  const handleDownload = () => {
+    downloadFile("/assets/documents/my-document.pdf", 'pedro-moura-resume.pdf');
   };
 
   const projects = (t('projects.items', { returnObjects: true }) as any[]).map(project => ({
@@ -81,12 +92,12 @@ export const Home: React.FC = () => {
                 {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="btn-professional">
+                <Button size="lg" className="btn-professional" onClick={hanldeContact}>
                   {t('hero.cta')}
                 </Button>
-                <Button variant="outline" size="lg" className="gap-2">
+                <Button variant="outline" size="lg" className="gap-2" onClick={handleDownload}>
                   <Download className="h-4 w-4" />
-                  {t('buttons.download_cv')}
+                  {t('hero.download_cv')}
                 </Button>
               </div>
             </motion.div>
@@ -135,7 +146,7 @@ export const Home: React.FC = () => {
                   <Card className="card-professional p-8 text-center">
                     <div className="w-32 h-32 bg-gradient-primary rounded-full mx-auto mb-6 overflow-hidden">
                       <img 
-                        src={profilePlaceholder} 
+                        src={profilePicture} 
                         alt={t('hero.name')}
                         className="w-full h-full object-cover"
                       />
@@ -371,9 +382,13 @@ export const Home: React.FC = () => {
                 
                       <Button variant="outline" onClick={() => window.open('https://github.com/PedroMoura1996', '_blank')} className="w-full justify-start gap-3">
                         <ExternalLink className="h-4 w-4" />
-                        GitHub Portfolio
+                        GitHub Portfolio (Personal - new)
                       </Button>
-                    <Button variant="outline" onClick={() => window.open('https://github.com/PedroMoura1996', '_blank')} className="w-full justify-start gap-3">
+                      <Button variant="outline" onClick={() => window.open('https://github.com/PedroAAMoura', '_blank')} className="w-full justify-start gap-3">
+                        <ExternalLink className="h-4 w-4" />
+                        GitHub Portfolio (Work)
+                      </Button>
+                    <Button variant="outline" onClick={handleDownload} className="w-full justify-start gap-3">
                         <Download className="h-4 w-4" />
                         Download Resume
                       </Button>
