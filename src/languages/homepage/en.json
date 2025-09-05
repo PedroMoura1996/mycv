@@ -122,7 +122,7 @@
         "description": "Digital account opening platform with mobile key authentication and video call verification. Streamlined KYC process with document verification and secure digital onboarding.",
         "technologies": ["React", "Node.js", "Digital Authentication", "Video Integration"],
         "image": "ecommerce",
-        "demo": "https://www.novobanco.pt/particulares/abertura-de-conta",
+        "demo": "https://www.novobanco.pt/particulares/contas/abertura-conta-online/abertura-conta-videoselfie",
         "github": ""
       },
       {
@@ -134,11 +134,19 @@
         "github": ""
       },
       {
-        "title": "ChatROI - AI Marketing Platform",
+        "title": "Bryj ChatROI - AI Marketing Platform",
         "description": "AI-powered audience generation and marketing automation platform. Backend development with Node.js, integrating OpenAI APIs for intelligent audience targeting and campaign optimization.",
         "technologies": ["Node.js", "OpenAI API", "AI/ML", "Marketing Automation"],
         "image": "weather",
-        "demo": "https://chatroi.bryj.ai/",
+        "demo": "https://chatroi.bryj.ai/get-started",
+        "github": ""
+      },
+      {
+        "title": "Bryj Grow/Platform",
+        "description": "Leverage real-time insights to create tailored mobile experiences that keep users engaged and coming back.",
+        "technologies": ["React",  "Push notifications", "Real-time analytic"],
+        "image": "weather",
+        "demo": "https://app.bryj.ai/sign-in",
         "github": ""
       }
     ]

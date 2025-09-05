@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
               <button
                 key={item.key}
                 onClick={() => handleNavigationClick(item.section)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-foreground hover:text-primary  text-white transition-colors font-medium"
               >
                 {t(`navigation.${item.key}`)}
               </button>
@@ -77,7 +77,7 @@ export const Header: React.FC = () => {
                 <button
                   key={item.key}
                   onClick={() => handleNavigationClick(item.section)}
-                  className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+                  className="text-left text-white hover:text-primary transition-colors font-medium py-2"
                 >
                   {t(`navigation.${item.key}`)}
                 </button>

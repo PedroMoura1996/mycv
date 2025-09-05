@@ -48,7 +48,7 @@ export const Home: React.FC = () => {
   };
 
   const handleDownload = () => {
-    downloadFile("/assets/documents/my-document.pdf", 'pedro-moura-resume.pdf');
+    downloadFile("/assets/documents/profile.pdf", 'pedro-moura-resume.pdf');
   };
 
   const projects = (t('projects.items', { returnObjects: true }) as any[]).map(project => ({
@@ -79,16 +79,16 @@ export const Home: React.FC = () => {
               transition={{ duration: 0.6 }}
               className="text-center max-w-4xl mx-auto"
             >
-              <p className="text-lg text-muted-foreground mb-4">
+              <p className="text-lg  text-white mb-4">
                 {t('hero.greeting')}
               </p>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white">
                 {t('hero.name')}
               </h1>
-              <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-secondary mb-6">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold  text-white mb-6">
                 {t('hero.title')}
               </h2>
-              <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-lg  text-white mb-12 max-w-2xl mx-auto leading-relaxed">
                 {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
