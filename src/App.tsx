@@ -23,7 +23,7 @@ const App = () => (
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <AppProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/mycv">
               <div className="min-h-screen bg-background text-foreground">
                 <Header />
                 <Suspense fallback={
