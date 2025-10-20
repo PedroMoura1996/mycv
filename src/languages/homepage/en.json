@@ -26,7 +26,7 @@
       {
         "position": "Fullstack Developer",
         "company": "Bryj Technologies, Inc.",
-        "period": "2023 - Present",
+        "period": "2025 - Present",
         "location": "Lisboa, Portugal",
         "description": "Fullstack development using modern web technologies and best practices for enterprise applications.",
         "technologies": ["React", "JavaScript", "Node.js", "Git"]
@@ -34,7 +34,7 @@
       {
         "position": "React Developer",
         "company": "Bryj Technologies, Inc.",
-        "period": "2024 - 2023",
+        "period": "2024 - 2025",
         "location": "Lisboa, Portugal",
         "description": "Frontend development focused on React applications and user interface implementation.",
         "technologies": ["React", "JavaScript", "Git"]
@@ -42,7 +42,7 @@
       {
         "position": "React Developer - DPDS",
         "company": "novobanco",
-        "period": "2023 - 2024",
+        "period": "2022 - 2024",
         "location": "Lisboa, Portugal",
         "description": "React development for banking applications and digital platforms.",
         "technologies": ["React", "JavaScript", "Git"]
@@ -111,6 +111,18 @@
         "institution": "Udemy",
         "period": "2022",
         "grade": "Online Certification"
+      },
+      {
+        "degree": "Databricks fundamentals",
+        "institution": "Databricks",
+        "period": "2025",
+        "grade": "Online Certification"
+      },
+      {
+        "degree": "Databricks sql analytics and BI",
+        "institution": "Databricks",
+        "period": "2025",
+        "grade": "Online Certification"
       }
     ]
   },
@@ -118,7 +130,7 @@
     "title": "Featured Projects",
     "items": [
       {
-        "title": "NovoBanco Online Account Opening",
+        "title": "Novobanco Online Account Opening",
         "description": "Digital account opening platform with mobile key authentication and video call verification. Streamlined KYC process with document verification and secure digital onboarding.",
         "technologies": ["React", "Node.js", "Digital Authentication", "Video Integration"],
         "image": "ecommerce",
@@ -126,7 +138,7 @@
         "github": ""
       },
       {
-        "title": "NovoBanco Branch Locator",
+        "title": "Novobanco Branch Locator",
         "description": "Interactive map-based branch and ATM locator with real-time availability, services information, and location-based search functionality.",
         "technologies": ["React", "Google Maps API", "Geolocation", "REST API"],
         "image": "taskmanager",

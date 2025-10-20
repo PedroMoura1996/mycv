@@ -44,8 +44,7 @@ export const ContactForm: React.FC = () => {
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      console.log('Form submitted:', data);
+
       toast.success(t('contact.form.success'));
       reset();
     } catch (error) {

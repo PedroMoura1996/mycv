@@ -26,7 +26,7 @@
       {
         "position": "Desenvolvedor Fullstack",
         "company": "Bryj Technologies, Inc.",
-        "period": "2023 - Presente",
+        "period": "2025 - Presente",
         "location": "Lisboa, Portugal",
         "description": "Desenvolvimento fullstack usando tecnologias web modernas e melhores práticas para aplicações empresariais.",
         "technologies": ["React", "JavaScript", "Node.js", "Git"]
@@ -34,7 +34,7 @@
       {
         "position": "Desenvolvedor React",
         "company": "Bryj Technologies, Inc.",
-        "period": "2024 - 2023",
+        "period": "2024 - 2025",
         "location": "Lisboa, Portugal",
         "description": "Desenvolvimento frontend focado em aplicações React e implementação de interfaces de utilizador.",
         "technologies": ["React", "JavaScript", "Git"]
@@ -42,7 +42,7 @@
       {
         "position": "Desenvolvedor React - DPDS",
         "company": "novobanco",
-        "period": "2023 - 2024",
+        "period": "2022 - 2024",
         "location": "Lisboa, Portugal",
         "description": "Desenvolvimento React para aplicações bancárias e plataformas digitais.",
         "technologies": ["React", "JavaScript", "Git"]
@@ -111,6 +111,18 @@
         "institution": "Udemy",
         "period": "2022",
         "grade": "Certificação Online"
+      },
+      {
+        "degree": "Certificação databricks fundamentals",
+        "institution": "Databricks",
+        "period": "2025",
+        "grade": "Certificação Online"
+      },
+      {
+        "degree": "Certificação databricks sql analytics and BI",
+        "institution": "Databricks",
+        "period": "2025",
+        "grade": "Certificação Online"
       }
     ]
   },
@@ -118,7 +130,7 @@
     "title": "Projetos em Destaque",
     "items": [
       {
-        "title": "Abertura de Conta Online - NovoBanco",
+        "title": "Abertura de Conta Online - Novobanco",
         "description": "Plataforma de abertura de conta digital com autenticação por chave móvel digital e verificação por videochamada. Processo KYC simplificado com verificação de documentos e onboarding digital seguro.",
         "technologies": ["React", "Autenticação Digital", "Integração Vídeo"],
         "image": "ecommerce",
@@ -126,7 +138,7 @@
         "github": ""
       },
       {
-        "title": "Pesquisa de Balcões - NovoBanco",
+        "title": "Pesquisa de Balcões - Novobanco",
         "description": "Localizador interativo de balcões e ATMs baseado em mapa com disponibilidade em tempo real, informações de serviços e funcionalidade de pesquisa por localização.",
         "technologies": ["React", "Google Maps API", "Geolocalização", "REST API"],
         "image": "taskmanager",
