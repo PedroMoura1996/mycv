@@ -48,7 +48,7 @@ export const Home: React.FC = () => {
   };
 
   const handleDownload = () => {
-    downloadFile("/assets/documents/profile.pdf", 'pedro-moura-resume.pdf');
+    downloadFile("/mycv/assets/documents/profile.pdf", 'pedro-moura-resume.pdf');
   };
 
   const projects = (t('projects.items', { returnObjects: true }) as any[]).map(project => ({
