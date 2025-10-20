@@ -1,8 +1,9 @@
 import React, { Suspense } from 'react';
 import profilePicture from '../assets/profile-picture.jpeg';
-import projectEcommerce from '../assets/project-ecommerce.jpg';
-import projectTaskmanager from '../assets/project-taskmanager.jpg';
-import projectWeather from '../assets/project-weather.jpg';
+import aberturaContaOnline from '../assets/aberturaconta.png';
+import pesquisaBalcoes from '../assets/pesquisabalcoes.png';
+import bryjChatROI from '../assets/chatroi.png';
+
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
@@ -38,9 +39,9 @@ export const Home: React.FC = () => {
   const { downloadFile } = useDownload();
 
   const projectImages = {
-    ecommerce: projectEcommerce,
-    taskmanager: projectTaskmanager,
-    weather: projectWeather,
+    ecommerce: aberturaContaOnline,
+    taskmanager: pesquisaBalcoes,
+    weather: bryjChatROI,
   };
 
   const hanldeContact = () => {
@@ -53,7 +54,7 @@ export const Home: React.FC = () => {
 
   const projects = (t('projects.items', { returnObjects: true }) as any[]).map(project => ({
     ...project,
-    image: projectImages[project.image as keyof typeof projectImages] || projectEcommerce
+    image: projectImages[project.image as keyof typeof projectImages] || aberturaContaOnline
   }));
   
   const experiences = t('experience.jobs', { returnObjects: true }) as any[];
